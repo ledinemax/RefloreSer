@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Titan+One&display=swap');
+
+/* :root {
+ --first:#232725;
+ --second:#D0F2DF;
+ --third:#4EBF8B;
+ --fourth:#F4F9F4;
+ --fifth:#203A40;
+ --sixth:#f8f7f7;
+ --seventh:#FDFDF6;
+} */
+
+:root {
+  /* Cores da paleta */
+  --dark-green: #232725;
+  /* Cor de fundo escura */
+  --light-green: #D0F2DF;
+  /* Cor principal - verde claro */
+  --medium-green: #578f6b;
+  --brown: #362b25;
+  /* Verde médio para destaques */
+  --background: #F4F9F4;
+  /* Cor de fundo geral */
+  --dark-blue: #203A40;
+  /* Cor azul escura para acentos */
+  --light-gray: #f8f7f7;
+  /* Cor cinza claro */
+  --off-white: #FDFDF6;
+  /* Cor quase branca para detalhes */
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding-bottom: 98px; */
+}

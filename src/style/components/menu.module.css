@@ -1,0 +1,40 @@
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-green);
+    max-height: 100px;
+    font-size: 1.1rem;
+
+}
+
+.navItens {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+ 
+}
+
+.navItens>li>a {
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    color: var(--light-gray);
+}
+
+.logo {
+    width: 23%;
+    margin-right: 1em;
+    margin-left: .5em;
+}
+
+.navItens>li>a:hover {
+    background-color: var(--light-green);
+    color: #232725;
+    border-radius: 10px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    transition: .5s;
+}
+
+
+  

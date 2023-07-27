@@ -1,0 +1,121 @@
+.homeContainer {
+  color: var(--dark-green);
+  padding-bottom: 4rem;
+  background-color: var(--off-white);
+}
+
+.containerHome {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mainDesc {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.homeTitle {
+  color: var(--brown);
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
+  border-radius: 8px;
+  font-family: 'Titan One', cursive;
+}
+
+.cardHome {
+  width: calc(33.33% - 25px);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--light-green);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardIMG {
+  margin: .4rem;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+
+.cardText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+}
+
+.cardMore {
+  padding-top: 2.3rem;
+  background-color: var(--background);
+  padding-bottom: 2rem;
+}
+
+.cardDesc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.descImage {
+  padding-left: 3rem;
+}
+
+.cardInfo {
+  text-align: center;
+  width: 60%;
+  padding: 3rem;
+  font-weight: 500;
+}
+
+.cardInfo h1 {
+  width: 95%;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-family: 'Titan One', cursive;
+  color: var(--brown);
+}
+
+.descText {
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+
+.descBTN {
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--off-white);
+  text-decoration: none;
+  background-color:var(--brown);
+
+}
+
+.descBTN:hover {
+ color: var(--off-white);
+ background-color: var(--medium-green);
+ transition: 1s;
+}
+
+
+
+@media (max-width: 768px) {
+  .cardDesc {
+    flex-direction: column;
+  }
+
+  .descImage,
+  .descText,
+  .descBTN {
+    order: unset;
+  }
+}
