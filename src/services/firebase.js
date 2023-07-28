@@ -6,13 +6,13 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAez8QtRsFMhnLjdyKD_jLFQWzr5LaVvUY",
-    authDomain: "refloreser-4d3c3.firebaseapp.com",
-    projectId: "refloreser-4d3c3",
-    storageBucket: "refloreser-4d3c3.appspot.com",
-    messagingSenderId: "916575307109",
-    appId: "1:916575307109:web:3ac2ca3af64305d7228d8c",
-    databaseURL: "https://refloreser-4d3c3-default-rtdb.firebaseio.com/"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    databaseURL: import.meta.env.VITE_DATABASE_URL
 };
 
 // Initialize Firebase
