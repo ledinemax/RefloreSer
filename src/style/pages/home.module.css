@@ -50,7 +50,7 @@
 .cardText {
   font-size: 15px;
   font-weight: 500;
-  color: #555;
+  color: var(--dark-green);
 }
 
 .cardMore {
