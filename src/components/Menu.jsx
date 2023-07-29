@@ -10,7 +10,6 @@ const Menu = () => {
                <a href="/"> 
                <img src={logo} className={styles.logo} alt=""/>
                </a>
-               {/* <p className={styles.logoTitle}>RefloreSer</p> */}
             </div>
 
             <div className={styles.navLink}>
@@ -22,7 +21,7 @@ const Menu = () => {
                         <Link to='/sobre'>QUEM SOMOS</Link>
                     </li>
                     <li>
-                        <Link to='/contato'>VEM HABLAR</Link>
+                        <Link to='/contato'>CONTATO</Link>
                     </li>
                 </ul>
             </div>

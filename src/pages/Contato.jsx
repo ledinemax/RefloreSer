@@ -25,10 +25,10 @@ const Contato = () => {
   }
 
   function handleInputNumber(e) {
-    const inputNumber = e.target.value; 
-  
+    const inputNumber = e.target.value;
+
     const onlyNumber = inputNumber.replace(/[^0-9+()\s-]/g, '');
-    if (onlyNumber.length <= 11 ) {
+    if (onlyNumber.length <= 11) {
       setNumber(onlyNumber);
     }
   }
@@ -66,48 +66,61 @@ const Contato = () => {
       />
 
       <main className={styles.contactContainer}>
-        <div className={styles.contactText}>
+        <div className={styles.contactCard}>
           <h2 className={styles.contactTitle}>Vamos conversar?</h2>
-          <p> Queremos ouvir você! Se você tem alguma dúvida, sugestão,
+          <p className={styles.contactText}> Queremos ouvir você! Se você tem alguma dúvida, sugestão,
             interesse em nossos projetos ou deseja fazer parte de nossa
             causa, entre em contato conosco. Sua opinião é valiosa para o
-            aprimoramento contínuo de nossas ações em prol da limpeza e
-            manutenção das águas.</p>
+            aprimoramento contínuo de nossas ações em prol da naturaza.</p>
+          <div className={styles.formContainer}>
+            <form className={styles.formCard} onSubmit={handleSubmit}>
+              <input className={styles.formInput}
+                type="text"
+                placeholder='Digite seu nome'
+                onChange={handleInputName}
+                value={name}
+              />
+              <input className={styles.formInput}
+                type="email"
+                placeholder='Digite seu email'
+                onChange={handleInputEmail}
+                value={email}
+              />
+              <input className={styles.formInput}
+                type="text"
+                value={number}
+                onChange={handleInputNumber}
+                placeholder="Digite o número de celular"
+              />
+              <textarea className={styles.formInput}
+                placeholder='Digite sua mensagem'
+                onChange={handleInputMessage}
+                value={message}
+              />
+              <button className={styles.formButton}
+                type='submit'>Enviar mensagem
+              </button>
+            </form>
+          </div>
         </div>
-
-        <div className={styles.formContainer}>
-          <form className={styles.form} onSubmit={handleSubmit}>
-
-            <input className={styles.formInput}
-              type="text"
-              placeholder='Digite seu nome'
-              onChange={handleInputName}
-              value={name}
-            />
-            <input className={styles.formInput}
-              type="email"
-              placeholder='Digite seu email'
-              onChange={handleInputEmail}
-              value={email}
-            />
-            <input className={styles.formInput}
-              type="text"
-              value={number}
-              onChange={handleInputNumber}
-              placeholder="Digite o número de celular"
-            />
-            <textarea className={styles.formInput}
-              placeholder='Digite sua mensagem'
-              onChange={handleInputMessage}
-              value={message}
-            />
-            <button className={styles.formButton}
-              type='submit'>Enviar mensagem
-            </button>
-          </form>
+        <div className={styles.infoContact}>
+          <div className={styles.usContactCard}>
+            <h1 className={styles.usTitle}>Informações de Contato:</h1>
+            <p>
+              <strong>Endereço:</strong> Alameda Verde, nº13, Cidade Jardim, São Paulo.
+            </p>
+            <p>
+              <strong>Telefone fixo e WhatsApp:</strong> (11) 971330484, (11) 367898645.
+            </p>
+            <p>
+              <strong>E-mail:</strong> refloreser@sejaverde.com
+            </p>
+            <p>
+              <strong>Horário de Atendimento:</strong> Segunda a Sabado, das 9 da manhã ás 18 da tarde.
+            </p>
+          </div>
         </div>
       </main>
-
     </>
   )
 }

@@ -4,15 +4,18 @@
     align-items: center;
     text-align: center;
     background-color: var(--background);
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     padding-top: 2.3rem;
     color: var(--dark-green);
+
 }
 
 
 /* VALUE */
 .values {
-    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top: 1rem; */
+    padding-bottom: 1rem;
 }
 
 .valuesTitle {
@@ -27,22 +30,22 @@
     width: 65%;
     display: inline-block;
     column-count: 2;
-    column-gap: 5rem;
     color: var(--light-gray);
+
 }
 
 .valuesText {
-    padding: 1rem;
+    width: 85%;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: 10px;
     text-align: center;
     background-color: var(--first);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
     background-color: var(--dark-green);
-    /* line-height: 1.3rem; */
 }
-
-
 
 .valuesText:hover {
     color: var(--medium-green);
@@ -78,25 +81,26 @@ ul {
 }
 
 .focusCard {
-    width: 67%;
+    width: 70%;
     display: inline-block;
     column-count: 2;
-    column-gap: 5rem;
-    background-color: var(--light-green);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.739);
+    color: var(--light-gray);
+    /* background-color: ; */
     border-radius: 10px;
 }
 
 .focusTextList {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
-.focusTextList>p>b {
+.focusTextList>b {
     margin-top: 1rem;
     display: inline-block;
+    color: var(--light-green);
 }
 
 
@@ -111,10 +115,11 @@ ul {
     text-align: center;
     padding-bottom: 2.3rem;
     padding-top: 2.3rem;
+
 }
 
 .projectsTitle>h3 {
-    color: var(--brown);
+    color: var(--dark-blue);
     font-family: 'Titan One', cursive;
     font-size: 2.2rem;
     text-align: center;
@@ -125,24 +130,21 @@ ul {
     width: 60%;
     display: inline-block;
     column-count: 2;
-    column-gap: 5rem;
+    column-gap: 2rem;
     border-radius: 10px;
+
 }
 
 .projectsCard {
-    color: var(--off-white);
+    color: var(--brown);
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
-    background-color: var(-);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.438);
-    margin-bottom: 1rem;
-    background-color: var(--dark-green);
-
+    margin-bottom: 2rem;
+    background-color: var(--light-green);
 }
 
 .projectsTitle {
-    
     display: inline-block;
     /* align-items: center; */
     text-align: center;

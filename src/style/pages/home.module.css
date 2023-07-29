@@ -109,13 +109,40 @@
 
 
 @media (max-width: 768px) {
+  .containerHome {
+    justify-content: center;
+  }
+
+  .mainDesc {
+    margin: 0;
+  }
+
+  .homeTitle {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .cardHome {
+    width: calc(100% - 15px); /* Ocupa toda a largura da tela */
+    margin-bottom: 1rem;
+  }
+
   .cardDesc {
     flex-direction: column;
   }
 
-  .descImage,
-  .descText,
-  .descBTN {
-    order: unset;
+  .descImage {
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+  }
+
+  .cardInfo {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .cardInfo h1 {
+    font-size: 1.3rem;
   }
 }

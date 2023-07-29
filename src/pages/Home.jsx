@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Header
-        title="Iniciativa de reflorestamento"
+        title="Preservação e Manutenção"
         text='RefloreSer é dedicada a manutenção e restauração da flora e fauna brasileira, atuando
         principalmente em regiões com altos indices de desmatamento e queimadas.'
         image={homeIMG}
@@ -52,7 +52,7 @@ const Home = () => {
               é essencial o engajamento e a colaboração de governos, organizações não governamentais,
               setor privado e comunidades locais, trabalhando em conjunto para
               restaurar e proteger nossas florestas.</p>
-            <a href="/contato" target="_blank" role='button' className={styles.descBTN}>Saiba Mais</a>
+            <a href="/sobre"  role='button' className={styles.descBTN}>Saiba Mais</a>
           </div>
         </div>
       </div>

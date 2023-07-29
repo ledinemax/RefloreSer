@@ -10,15 +10,45 @@
 
 .headerTitle {
     font-family: 'Titan One', cursive;
-    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
     color: var(--dark-blue);
+
+
 }
 
 .headerImage {
     width: 45%;
-    margin-left: 140px;
 }
 
 .headerText {
+    width: 85%;
     color: var(--dark-green);
+}
+
+@media (max-width: 768px) {
+    .headerContainer {
+        @media (max-width: 768px) {
+            padding: 1rem;
+            text-align: center;
+        }
+    }
+
+    .headerTitle {
+        @media (max-width: 768px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    .headerImage {
+        display: none;
+    }
+
+    .headerText {
+        @media (max-width: 768px) {
+            width: 100%;
+
+        }
+    }
+
 }

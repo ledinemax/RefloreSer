@@ -1,15 +1,16 @@
 .footerContainer {
-    background-color: var(--dark-green);
+    background-color: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
     bottom: 0;
     position: relative;
+
 }
 
 .footerContent {
-    color: var(--off-white);
+    color: var(--dark-blue);
     font-size: .8rem;
 }
 
