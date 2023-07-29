@@ -21,7 +21,7 @@ const Sobre = () => {
         title='Quem Somos?'
         text='RefloreSer é uma ONG dedicada ao reflorestamento e 
         à restauração de ecossistemas em todo o mundo. Fundada em 
-        2010, nossa missão é reverter os danos causados pela 
+        2022, nossa missão é reverter os danos causados pela 
         degradação ambiental, proteger a biodiversidade e promover 
         a conscientização sobre a importância 
         das florestas para o equilíbrio ecológico do planeta'

@@ -13,8 +13,6 @@
 
 /* VALUE */
 .values {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* margin-top: 1rem; */
     padding-bottom: 1rem;
 }
 
@@ -74,7 +72,6 @@ ul {
 
 .titleFocus {
     color: var(--off-white);
-    padding-bottom: 2rem;
     text-align: center;
     font-family: 'Titan One', cursive;
     font-size: 2.2rem;
@@ -85,7 +82,6 @@ ul {
     display: inline-block;
     column-count: 2;
     color: var(--light-gray);
-    /* background-color: ; */
     border-radius: 10px;
 }
 
