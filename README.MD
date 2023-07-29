@@ -1,40 +1,14 @@
-<h1  align="center">
+# RefloreSer
 
-<img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500"> // ALTERAR PARA UMA LOGO, UM GIF, FICA AO CRITÉRIO
+RefloreSer é um ONG voltada para o reflorestamento e manutenão da fauna, flora e águas brasileiras.
 
-</h1>
-
-## 🚀 Apresentação
-
-### Quem é a Cyberlua? 
-
-<img src='./assets/female-ghost-face.png' width=500 alt='foto ilustrativa de uma mulher ghost face'> // ALTERAR PARA UMA FOTO SUA OU QUE TE REPRESENTE. 
-
-[Luna Trevisan](https://www.instagram.com/cyberlua7/), // HABLAR UM POUCO SOBRE VOCÊ E MUDAR PARA O SEU INSTAGRAM
-
-#### Contatos
-
--  [E-mail](cyberlua7@gmail.com) // ALTERAR
-
--  [LinkedIn](https://www.linkedin.com/in/cyberlua7/) // ALTERAR
-
--  [GitHub](https://github.com/cyberlua) // ALTERAR 
-
-## Conhecendo o projeto (Conexão Bapho) // MUDAR O NOME DO PROJETO PARA O DE VOCÊS
-
-### 🧠 Contexto
-
-// ESCREVA AQUI O CONTEXTO E OBJETIVO DO SEU PROJETO
+## 🚀 Contexto:
 
 ### O site conterá 4 páginas:
 
 * Home
 
 * Sobre
-
-* Empresas
-
-* Cursos
 
 * Contato
 
@@ -46,9 +20,10 @@
 
 * Footer
 
-* Slides
+## Estrutura do projeto
+<img src="assets/estrutura-de-pastas.png" alt="estrutura de pastas" width="300"> // COLOCAR O PRINT DA ESTRUTURA DO SEU PROJETO - OPCIONAL BOTAR O PRINT DAS DEPENDENCIAS TAMBÉM. LEMBRAR QUE ESSAS IMAGENS DEVEM FICAR NUMA NOVA PASTA ASSETS FORA DAS PASTAS DO PROJETO. TODAS AS IMAGENS FICAM NESSA PASTA, INCLUSIVE AS PRIMEIRAS LOGO/PERFIL
 
-* Dark Mode
+<br />
 
 ## Estrutura do projeto
 
@@ -84,21 +59,13 @@
 
 <br />
 
-###  `Como rodar o projeto localmente`  // SE VOCÊ NÃO VAI INTEGRAR COM O FIREBASE SO REMOVER AS INFORMAÇÕES DO FIRE BASE NO PASSO A PASSO 
+###  `Como rodar o projeto localmente` 
 
 Siga os passos e inclua as informações abaixo:
 
-|&nbsp;&nbsp;&nbsp;&nbsp; Passo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Comando/informação &nbsp;&nbsp;&nbsp;|
-
-| Faça o fork | `botão de forkar` |
-
-| Faça o clone | `git clone` |
-
-| Instale as dependências após acessar a pasta projeto | `npm i` |
-
-| Crie as variáveis de ambiente para integrar com Firebase e inclua os valores da sua conta | `conforme .env.example e lista abaixo`|
-
-| Rode o projeto | `npm run dev` |
+| PASSO | COMANDO/INFORMAÇÃO |
+| ---- | ----|
+| AQUI | ---- |
 
 **Variáveis de ambiente**
 
