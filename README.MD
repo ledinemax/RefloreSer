@@ -1,117 +1,92 @@
-# RefloreSer
+Em desenvolvimento...
+# 🧠 Conhecendo o projeto
+
+## 🌳RefloreSer
 
 RefloreSer é um ONG voltada para o reflorestamento e manutenão da fauna, flora e águas brasileiras.
 
-## 🚀 Contexto:
+🚀 Vem conferir o resultado final: https://refloreser.vercel.app/
 
-### O site conterá 4 páginas:
+#### O site conterá 3 páginas:
 
-* Home
+```
+Home
+Sobre
+Contato
+```
 
-* Sobre
+#### Todas as páginas terão os componentes:
 
-* Contato
+```
+Menu
+Header
+Footer
+```
 
-### Todas as páginas terão os componentes:
+### Estrutura do projeto
 
-* Menu
+<img src="assets/estrutura-pastas.png" alt="estrutura de pastas" width="160">
 
-* Header
-
-* Footer
-
-## Estrutura do projeto
-<img src="assets/estrutura-de-pastas.png" alt="estrutura de pastas" width="300"> // COLOCAR O PRINT DA ESTRUTURA DO SEU PROJETO - OPCIONAL BOTAR O PRINT DAS DEPENDENCIAS TAMBÉM. LEMBRAR QUE ESSAS IMAGENS DEVEM FICAR NUMA NOVA PASTA ASSETS FORA DAS PASTAS DO PROJETO. TODAS AS IMAGENS FICAM NESSA PASTA, INCLUSIVE AS PRIMEIRAS LOGO/PERFIL
-
-<br />
-
-## Estrutura do projeto
-
-<img src="assets/estrutura-de-pastas.png" alt="estrutura de pastas" width="300"> // COLOCAR O PRINT DA ESTRUTURA DO SEU PROJETO - OPCIONAL BOTAR O PRINT DAS DEPENDENCIAS TAMBÉM. LEMBRAR QUE ESSAS IMAGENS DEVEM FICAR NUMA NOVA PASTA ASSETS FORA DAS PASTAS DO PROJETO. TODAS AS IMAGENS FICAM NESSA PASTA, INCLUSIVE AS PRIMEIRAS LOGO/PERFIL
+<img src="assets/estrutura-json.png" alt="estrutura de pastas" width="160">
 
 <br />
 
-##  `Tecnologias que utilizei` // ADD OU MODIFICAR ALGUMAS TECNOLOGIAS  
+## `💻 Tecnologias usadas`
 
 | Ferramenta | Descrição |
-
-| `ReactJS` | Framework web |
-
-| `Vite` | Gerador de projeto de front-end |
-
-| `npm` | Gerenciador de pacotes |
-
-| `Firebase` | Ferramenta realtime database para gravar as mensagens de contato |
-
-| `Module CSS` | Ferramenta para ter mais produtividade ao estilizar a aplicação |
-
-| `Phosphor` | Dependência com ícones super legais |
-
-| `React icons` | Outra dependência com ícones legais |
-
-| `React router dom` | Dependência para criar rotas no reactjs |
-
-| `React Bootstrap` | Biblioteca que oferece componentes Bootstrap construído em React |
-
-| `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github |
-
-| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento |
+| --- | --- |
+| `ReactJS` | framework web|
+| `Vite` | gerador de projeto de front-end|
+| `npm` | gerenciador de pacotes|
+| `Firebase` | Ferramenta Firestore Database para gravar de mensagens|
+| `React router dom` | Dependência para criar rotas no reactjs|
+| `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github|
+| `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
 
 <br />
 
-###  `Como rodar o projeto localmente` 
+### `📝 Como rodar o projeto localmente`
 
 Siga os passos e inclua as informações abaixo:
 
-| PASSO | COMANDO/INFORMAÇÃO |
-| ---- | ----|
-| AQUI | ---- |
+| Passo |	Comando/informação |
+| --- | --- |
+| Faça o fork |	`botão de forkar`|
+| Faça o clone |	`git clone`|
+|  Instale as dependências após acessar a pasta projeto	| `npm i`|
+| Crie as variaveis de ambiente para integrar com Firebase e inclua os valores da sua conta | `conforme .env.example e lista abaixo`|
+ Rode o projeto	| `npm run dev`|
 
-**Variáveis de ambiente**
+ **Variáveis de ambiente**
 
-* VITE_API_KEY=
-
-* VITE_AUTH_DOMAIN=
-
-* VITE_PROJECT_ID=
-
-* VITE_STORAGE_BUCKET=
-
-* VITE_MESSAGING_SENDER_ID=
-
-* VITE_APP_ID=
-
-* VITE_DATABASE_URL=
-
-<br  />
+ * VITE_API_KEY=
+ * VITE_AUTH_DOMAIN=
+ * VITE_PROJECT_ID=
+ * VITE_STORAGE_BUCKET=
+ * VITE_MESSAGING_SENDER_ID=
+ * VITE_APP_ID=
+ * VITE_MEASUREMENT_ID=
+ 
+<br />
+<br />
 
 ## 💪 Desafios 
 
-- Maior desafio desse projeto....
+- Criação do banco de dados no Firebase.
+- Estilização correta da resposividade.
+- Achar dados sobre a eficacia/impacto do reflorestamento em zonas desmatadas.
 
-- Outro desafio foi....
+##  Próximos passos mapeados
 
-// OPCIONAL PARA A DOCUMENTAÇÃO MAS INTERESSANTE PARA APRESENTAÇÃO 
+- Criação de página para cadastro de usuarios.
+- Criação de página onde irá conter informações sobre projetos em andamentos e futuros.
+- Revisão de acessivilidade.
+- Revisão de responsividade.
+ ---
+ <b>
 
-## 💪 Aprendizados
+## `Onde me achar`
 
-- Meu aprendizado nesse projeto....
-
-- E outro aprendizado.... 
-
-// OPCIONAL PARA A DOCUMENTAÇÃO MAS INTERESANTE PARA APRESENTAÇÃO 
-
-## 😎 Próximos passos mapeados
-
-- Mapeamento para programas de estágios.....
-
-- Criar página para uma rede de mentorias .....
-
-- Parceria com escolas e empresas....
-
-// OPCIONAL PARA A DOCUMENTAÇÃO MAS INTERESSANTE PARA APRESENTAÇÃO 
-
-
-## Citação e Agradecimento 
-
-// OPCIONAL PARA A DOCUMENTAÇÃO 
+-[instagram] (https://www.instagram.com/xlemaxxi_/)
+-[github] (https://github.com/ledinemax)
+-[linkedin] (https://www.linkedin.com/in/ledinemaximiano/)
